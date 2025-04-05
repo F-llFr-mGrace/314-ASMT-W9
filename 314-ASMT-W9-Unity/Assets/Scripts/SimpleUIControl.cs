@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.XR.Interaction.Toolkit;
-using System;
 
 public class SimpleUIControl : MonoBehaviour
 {
