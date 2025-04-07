@@ -28,14 +28,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898704653036232523}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.70703495, z: -0, w: 0.7071787}
-  m_LocalPosition: {x: 0, y: -0.208, z: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -0.0899924, y: -0.208, z: 0.08998345}
   m_LocalScale: {x: 0.30000007, y: 0.3, z: 0.30000007}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 807775617793137147}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &1138429570610668636
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: be214e1a53e041e479a363208c1ac0ff, type: 2}
+  - {fileID: 2100000, guid: 903cdfb7d1c09b444b14146f8ac5deb7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -115,7 +115,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898704653036232523}
   serializedVersion: 4
-  m_Mass: 5
+  m_Mass: 1
   m_Drag: 1
   m_AngularDrag: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
