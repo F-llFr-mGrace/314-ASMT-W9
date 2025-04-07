@@ -20,7 +20,8 @@ public class ExplosiveDevice : XRGrabInteractable
     }
     private void OnCollisionEnter(Collision other) 
     {
-        if(isActivated)
+        if(isActivated &&
+            other.gameObject.GetComponent<WandProjectile>() != null)
         {
             OnDetonated?.Invoke();
         }

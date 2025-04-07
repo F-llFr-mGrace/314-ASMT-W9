@@ -169,6 +169,7 @@ public class TheWall : MonoBehaviour
     }
 }
 
+
 [System.Serializable]
 public class GeneratedColumn
 {
